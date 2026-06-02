@@ -1,0 +1,1301 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -584 488 -416 504)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "start_of_frame" (rect 5 0 76 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -584 472 -416 488)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "is_exploding" (rect 5 0 65 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -584 456 -416 472)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "load_game" (rect 5 0 60 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -584 440 -416 456)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "level_sel[2..0]" (rect 5 0 74 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -640 424 -416 440)
+	(text "INPUT" (rect 181 0 209 10)(font "Arial" (font_size 6)))
+	(text "collision_Bubble_BadPatty" (rect 5 0 135 17)(font "Intel Clear" ))
+	(pt 224 8)
+	(drawing
+		(line (pt 140 12)(pt 165 12))
+		(line (pt 140 4)(pt 165 4))
+		(line (pt 169 8)(pt 224 8))
+		(line (pt 140 12)(pt 140 4))
+		(line (pt 165 4)(pt 169 8))
+		(line (pt 165 12)(pt 169 8))
+	)
+	(text "VCC" (rect 184 7 204 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -584 408 -416 424)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "pixelY[10..0]" (rect 5 0 65 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -584 392 -416 408)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "pixelX[10..0]" (rect 5 0 65 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -584 376 -416 392)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "resetN" (rect 5 0 36 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -584 360 -416 376)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "clk" (rect 5 0 20 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -632 504 -416 520)
+	(text "INPUT" (rect 173 0 201 10)(font "Arial" (font_size 6)))
+	(text "collision_bubble_jellyfish" (rect 5 0 127 12)(font "Arial" ))
+	(pt 216 8)
+	(drawing
+		(line (pt 132 12)(pt 157 12))
+		(line (pt 132 4)(pt 157 4))
+		(line (pt 161 8)(pt 216 8))
+		(line (pt 132 12)(pt 132 4))
+		(line (pt 157 4)(pt 161 8))
+		(line (pt 157 12)(pt 161 8))
+	)
+	(text "VCC" (rect 176 7 196 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -584 520 -416 536)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "item3_bought" (rect 5 0 72 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -624 536 -416 552)
+	(text "INPUT" (rect 165 0 193 10)(font "Arial" (font_size 6)))
+	(text "coliision_bubble_burger" (rect 5 0 119 17)(font "Intel Clear" ))
+	(pt 208 8)
+	(drawing
+		(line (pt 124 12)(pt 149 12))
+		(line (pt 124 4)(pt 149 4))
+		(line (pt 153 8)(pt 208 8))
+		(line (pt 124 12)(pt 124 4))
+		(line (pt 149 4)(pt 153 8))
+		(line (pt 149 12)(pt 153 8))
+	)
+	(text "VCC" (rect 168 7 188 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 80 360 256 376)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "BadPattyDR" (rect 90 0 152 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 80 376 265 392)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "BadPattyRGB[7..0]" (rect 90 0 179 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 80 392 262 408)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "ded_points_rotten" (rect 90 0 176 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 80 424 291 440)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "jellyfishDrawingRequest" (rect 90 0 205 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 80 440 258 456)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "jellyfishRGB[7..0]" (rect 90 0 172 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 80 456 256 472)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "ded_points" (rect 90 0 141 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 80 488 285 504)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "BurgerDrawingRequest" (rect 90 0 199 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 80 504 256 520)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "burgerRGB[7..0]" (rect 90 0 165 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 80 520 256 536)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "add_points" (rect 90 0 141 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect -1888 224 -1728 304)
+	(text "MyConstant" (rect 5 0 65 12)(font "Arial" ))
+	(text "inst63" (rect 8 64 36 81)(font "Intel Clear" ))
+	(port
+		(pt 160 32)
+		(output)
+		(text "value[size-1..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "value[size-1..0]" (rect 76 27 151 39)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(parameter
+		"size"
+		"11"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MyValue"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 144 64))
+	)
+	(annotation_block (parameter)(rect -1896 152 -1727 209))
+)
+(symbol
+	(rect -1880 368 -1720 448)
+	(text "MyConstant" (rect 5 0 65 12)(font "Arial" ))
+	(text "inst64" (rect 8 64 36 81)(font "Intel Clear" ))
+	(port
+		(pt 160 32)
+		(output)
+		(text "value[size-1..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "value[size-1..0]" (rect 76 27 151 39)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(parameter
+		"size"
+		"11"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MyValue"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 144 64))
+	)
+	(annotation_block (parameter)(rect -1896 296 -1727 353))
+)
+(symbol
+	(rect -1336 208 -912 464)
+	(text "BadPattyDisplay" (rect 5 0 105 19)(font "Intel Clear" (font_size 8)))
+	(text "inst66" (rect 8 235 36 252)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "clk" (rect 21 27 37 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "resetN" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "resetN" (rect 21 43 59 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "pixelX[10..0]" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "pixelX[10..0]" (rect 21 59 96 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "pixelY[10..0]" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "pixelY[10..0]" (rect 21 75 96 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "collision_Bubble_BadPatty" (rect 0 0 159 19)(font "Intel Clear" (font_size 8)))
+		(text "collision_Bubble_BadPatty" (rect 21 91 180 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "topLeftX[10..0]" (rect 0 0 90 19)(font "Intel Clear" (font_size 8)))
+		(text "topLeftX[10..0]" (rect 21 107 111 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "level_sel[2..0]" (rect 0 0 82 19)(font "Intel Clear" (font_size 8)))
+		(text "level_sel[2..0]" (rect 21 123 103 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "topLeftY[10..0]" (rect 0 0 90 19)(font "Intel Clear" (font_size 8)))
+		(text "topLeftY[10..0]" (rect 21 139 111 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "load_game" (rect 0 0 66 19)(font "Intel Clear" (font_size 8)))
+		(text "load_game" (rect 21 155 87 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "rotten[2..0][7..0]" (rect 0 0 96 19)(font "Intel Clear" (font_size 8)))
+		(text "rotten[2..0][7..0]" (rect 21 171 117 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "is_exploding" (rect 0 0 74 19)(font "Intel Clear" (font_size 8)))
+		(text "is_exploding" (rect 21 187 95 206)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "start_of_frame" (rect 0 0 88 19)(font "Intel Clear" (font_size 8)))
+		(text "start_of_frame" (rect 21 203 109 222)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 424 32)
+		(output)
+		(text "BadPattyDrawingRequest" (rect 0 0 152 19)(font "Intel Clear" (font_size 8)))
+		(text "BadPattyDrawingRequest" (rect 251 27 403 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 424 32)(pt 408 32))
+	)
+	(port
+		(pt 424 48)
+		(output)
+		(text "BadPattyRGB[7..0]" (rect 0 0 112 19)(font "Intel Clear" (font_size 8)))
+		(text "BadPattyRGB[7..0]" (rect 291 43 403 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 424 48)(pt 408 48)(line_width 3))
+	)
+	(port
+		(pt 424 64)
+		(output)
+		(text "bad_patty_explosion_mazeX[10..0]" (rect 0 0 211 19)(font "Intel Clear" (font_size 8)))
+		(text "bad_patty_explosion_mazeX[10..0]" (rect 192 59 403 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 424 64)(pt 408 64)(line_width 3))
+	)
+	(port
+		(pt 424 80)
+		(output)
+		(text "bad_patty_explosion_mazeY[10..0]" (rect 0 0 211 19)(font "Intel Clear" (font_size 8)))
+		(text "bad_patty_explosion_mazeY[10..0]" (rect 192 75 403 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 424 80)(pt 408 80)(line_width 3))
+	)
+	(port
+		(pt 424 96)
+		(output)
+		(text "hit_bad_patty_stage_2" (rect 0 0 139 19)(font "Intel Clear" (font_size 8)))
+		(text "hit_bad_patty_stage_2" (rect 264 91 403 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 424 96)(pt 408 96))
+	)
+	(port
+		(pt 424 112)
+		(output)
+		(text "ded_points_rotten" (rect 0 0 109 19)(font "Intel Clear" (font_size 8)))
+		(text "ded_points_rotten" (rect 294 107 403 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 424 112)(pt 408 112))
+	)
+	(drawing
+		(rectangle (rect 16 16 408 240))
+	)
+)
+(symbol
+	(rect -1728 592 -1568 672)
+	(text "MyConstant" (rect 5 0 65 12)(font "Arial" ))
+	(text "inst35" (rect 8 64 36 81)(font "Intel Clear" ))
+	(port
+		(pt 160 32)
+		(output)
+		(text "value[size-1..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "value[size-1..0]" (rect 76 27 151 39)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(parameter
+		"size"
+		"11"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MyValue"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 144 64))
+	)
+	(annotation_block (parameter)(rect -1912 568 -1743 625))
+)
+(symbol
+	(rect -1728 696 -1568 776)
+	(text "MyConstant" (rect 5 0 65 12)(font "Arial" ))
+	(text "inst36" (rect 8 64 36 81)(font "Intel Clear" ))
+	(port
+		(pt 160 32)
+		(output)
+		(text "value[size-1..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "value[size-1..0]" (rect 76 27 151 39)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(parameter
+		"size"
+		"11"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MyValue"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 144 64))
+	)
+	(annotation_block (parameter)(rect -1912 688 -1743 745))
+)
+(symbol
+	(rect -1312 584 -960 808)
+	(text "JELLYFISH_DISPLAY" (rect 5 0 130 19)(font "Intel Clear" (font_size 8)))
+	(text "inst67" (rect 8 203 36 220)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "clk" (rect 21 27 37 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "resetN" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "resetN" (rect 21 43 59 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "pixelX[10..0]" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "pixelX[10..0]" (rect 21 59 96 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "pixelY[10..0]" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "pixelY[10..0]" (rect 21 75 96 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "collision_bubble_Jellyfish" (rect 0 0 153 19)(font "Intel Clear" (font_size 8)))
+		(text "collision_bubble_Jellyfish" (rect 21 91 174 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "topLeftX[10..0]" (rect 0 0 90 19)(font "Intel Clear" (font_size 8)))
+		(text "topLeftX[10..0]" (rect 21 107 111 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "level_sel[2..0]" (rect 0 0 82 19)(font "Intel Clear" (font_size 8)))
+		(text "level_sel[2..0]" (rect 21 123 103 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "topLeftY[10..0]" (rect 0 0 90 19)(font "Intel Clear" (font_size 8)))
+		(text "topLeftY[10..0]" (rect 21 139 111 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "item_bought" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "item_bought" (rect 21 155 96 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "load_game" (rect 0 0 66 19)(font "Intel Clear" (font_size 8)))
+		(text "load_game" (rect 21 171 87 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 352 32)
+		(output)
+		(text "JellyfishDrawingRequest" (rect 0 0 146 19)(font "Intel Clear" (font_size 8)))
+		(text "JellyfishDrawingRequest" (rect 185 27 331 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 352 32)(pt 336 32))
+	)
+	(port
+		(pt 352 48)
+		(output)
+		(text "JellyfishRGB[7..0]" (rect 0 0 106 19)(font "Intel Clear" (font_size 8)))
+		(text "JellyfishRGB[7..0]" (rect 225 43 331 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 352 48)(pt 336 48)(line_width 3))
+	)
+	(port
+		(pt 352 64)
+		(output)
+		(text "ded_points" (rect 0 0 67 19)(font "Intel Clear" (font_size 8)))
+		(text "ded_points" (rect 264 59 331 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 352 64)(pt 336 64))
+	)
+	(drawing
+		(rectangle (rect 16 16 336 208))
+	)
+)
+(symbol
+	(rect -1776 960 -1616 1040)
+	(text "MyConstant" (rect 5 0 65 12)(font "Arial" ))
+	(text "inst20" (rect 8 64 36 81)(font "Intel Clear" ))
+	(port
+		(pt 160 32)
+		(output)
+		(text "value[size-1..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "value[size-1..0]" (rect 76 27 151 39)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(parameter
+		"size"
+		"11"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MyValue"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 144 64))
+	)
+	(annotation_block (parameter)(rect -1960 936 -1791 993))
+)
+(symbol
+	(rect -1760 1080 -1600 1160)
+	(text "MyConstant" (rect 5 0 65 12)(font "Arial" ))
+	(text "inst21" (rect 8 64 36 81)(font "Intel Clear" ))
+	(port
+		(pt 160 32)
+		(output)
+		(text "value[size-1..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "value[size-1..0]" (rect 76 27 151 39)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(parameter
+		"size"
+		"11"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MyValue"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 144 64))
+	)
+	(annotation_block (parameter)(rect -1944 1072 -1775 1129))
+)
+(symbol
+	(rect -1336 944 -936 1232)
+	(text "BURGER_DISPLAY" (rect 5 0 115 19)(font "Intel Clear" (font_size 8)))
+	(text "inst8" (rect 8 267 30 284)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "clk" (rect 21 27 37 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "resetN" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "resetN" (rect 21 43 59 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "pixelX[10..0]" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "pixelX[10..0]" (rect 21 59 96 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "pixelY[10..0]" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "pixelY[10..0]" (rect 21 75 96 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "BURGER_SELECT" (rect 0 0 103 19)(font "Intel Clear" (font_size 8)))
+		(text "BURGER_SELECT" (rect 21 91 124 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "topLeftX[10..0]" (rect 0 0 90 19)(font "Intel Clear" (font_size 8)))
+		(text "topLeftX[10..0]" (rect 21 107 111 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "collision_Bubble_Burger" (rect 0 0 142 19)(font "Intel Clear" (font_size 8)))
+		(text "collision_Bubble_Burger" (rect 21 123 163 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "topLeftY[10..0]" (rect 0 0 90 19)(font "Intel Clear" (font_size 8)))
+		(text "topLeftY[10..0]" (rect 21 139 111 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "level_sel[2..0]" (rect 0 0 82 19)(font "Intel Clear" (font_size 8)))
+		(text "level_sel[2..0]" (rect 21 155 103 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "load_game" (rect 0 0 66 19)(font "Intel Clear" (font_size 8)))
+		(text "load_game" (rect 21 171 87 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "bad_patty_explosion_mazeX[10..0]" (rect 0 0 211 19)(font "Intel Clear" (font_size 8)))
+		(text "bad_patty_explosion_mazeX[10..0]" (rect 21 187 232 206)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "bad_patty_explosion_mazeY[10..0]" (rect 0 0 211 19)(font "Intel Clear" (font_size 8)))
+		(text "bad_patty_explosion_mazeY[10..0]" (rect 21 203 232 222)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "hit_bad_patty_stage_2" (rect 0 0 139 19)(font "Intel Clear" (font_size 8)))
+		(text "hit_bad_patty_stage_2" (rect 21 219 160 238)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "start_of_frame" (rect 0 0 88 19)(font "Intel Clear" (font_size 8)))
+		(text "start_of_frame" (rect 21 235 109 254)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 240)(pt 16 240))
+	)
+	(port
+		(pt 400 32)
+		(output)
+		(text "BurgerDrawingRequest" (rect 0 0 135 19)(font "Intel Clear" (font_size 8)))
+		(text "BurgerDrawingRequest" (rect 244 27 379 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 400 32)(pt 384 32))
+	)
+	(port
+		(pt 400 48)
+		(output)
+		(text "burgerRGB[7..0]" (rect 0 0 95 19)(font "Intel Clear" (font_size 8)))
+		(text "burgerRGB[7..0]" (rect 284 43 379 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 400 48)(pt 384 48)(line_width 3))
+	)
+	(port
+		(pt 400 64)
+		(output)
+		(text "add_points" (rect 0 0 67 19)(font "Intel Clear" (font_size 8)))
+		(text "add_points" (rect 312 59 379 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 400 64)(pt 384 64))
+	)
+	(port
+		(pt 400 80)
+		(output)
+		(text "rotten[2..0][7..0]" (rect 0 0 96 19)(font "Intel Clear" (font_size 8)))
+		(text "rotten[2..0][7..0]" (rect 283 75 379 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 400 80)(pt 384 80)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 384 272))
+	)
+)
+(connector
+	(pt -1632 256)
+	(pt -1728 256)
+	(bus)
+)
+(connector
+	(pt -1720 400)
+	(pt -1704 400)
+	(bus)
+)
+(connector
+	(text "clk" (rect -1432 224 -1418 241)(font "Intel Clear" ))
+	(pt -1440 240)
+	(pt -1336 240)
+)
+(connector
+	(text "resetN" (rect -1432 240 -1402 257)(font "Intel Clear" ))
+	(pt -1440 256)
+	(pt -1336 256)
+)
+(connector
+	(text "pixelX[10..0]" (rect -1440 256 -1381 273)(font "Intel Clear" ))
+	(pt -1448 272)
+	(pt -1336 272)
+	(bus)
+)
+(connector
+	(text "pixelY[10..0]" (rect -1448 272 -1389 289)(font "Intel Clear" ))
+	(pt -1456 288)
+	(pt -1336 288)
+	(bus)
+)
+(connector
+	(pt -1632 256)
+	(pt -1632 320)
+	(bus)
+)
+(connector
+	(pt -1632 320)
+	(pt -1336 320)
+	(bus)
+)
+(connector
+	(pt -1704 400)
+	(pt -1704 352)
+	(bus)
+)
+(connector
+	(pt -1704 352)
+	(pt -1336 352)
+	(bus)
+)
+(connector
+	(text "level_sel[2..0]" (rect -1470 320 -1402 337)(font "Intel Clear" ))
+	(pt -1336 336)
+	(pt -1472 336)
+	(bus)
+)
+(connector
+	(text "load_game" (rect -1449 352 -1395 369)(font "Intel Clear" ))
+	(pt -1472 368)
+	(pt -1336 368)
+)
+(connector
+	(text "collision_Bubble_BadPatty" (rect -1448 288 -1319 305)(font "Intel Clear" ))
+	(pt -1456 304)
+	(pt -1336 304)
+)
+(connector
+	(text "BadPattyDR" (rect -888 224 -829 241)(font "Intel Clear" ))
+	(pt -912 240)
+	(pt -840 240)
+)
+(connector
+	(text "BadPattyRGB[7..0]" (rect -904 240 -815 257)(font "Intel Clear" ))
+	(pt -912 256)
+	(pt -816 256)
+	(bus)
+)
+(connector
+	(text "bad_patty_explosion_mazeX[10..0]" (rect -912 256 -745 273)(font "Intel Clear" ))
+	(pt -776 272)
+	(pt -912 272)
+	(bus)
+)
+(connector
+	(text "bad_patty_explosion_mazeY[10..0]" (rect -912 272 -745 289)(font "Intel Clear" ))
+	(pt -776 288)
+	(pt -912 288)
+	(bus)
+)
+(connector
+	(text "hit_bad_patty_stage_2" (rect -910 288 -801 305)(font "Intel Clear" ))
+	(pt -776 304)
+	(pt -912 304)
+)
+(connector
+	(text "rotten[2..0][7..0]" (rect -1486 368 -1411 385)(font "Intel Clear" ))
+	(pt -1336 384)
+	(pt -1488 384)
+	(bus)
+)
+(connector
+	(text "is_exploding" (rect -1494 384 -1435 401)(font "Intel Clear" ))
+	(pt -1336 400)
+	(pt -1496 400)
+)
+(connector
+	(text "startOfFrame" (rect -1430 400 -1367 417)(font "Intel Clear" ))
+	(pt -1560 416)
+	(pt -1336 416)
+)
+(connector
+	(text "ded_points_rotten" (rect -910 304 -824 321)(font "Intel Clear" ))
+	(pt -912 320)
+	(pt -784 320)
+)
+(connector
+	(pt -1568 624)
+	(pt -1544 624)
+	(bus)
+)
+(connector
+	(text "clk" (rect -1392 600 -1378 617)(font "Intel Clear" ))
+	(pt -1496 616)
+	(pt -1312 616)
+)
+(connector
+	(text "resetN" (rect -1390 616 -1360 633)(font "Intel Clear" ))
+	(pt -1496 632)
+	(pt -1312 632)
+)
+(connector
+	(text "pixelX[10..0]" (rect -1390 632 -1331 649)(font "Intel Clear" ))
+	(pt -1496 648)
+	(pt -1312 648)
+	(bus)
+)
+(connector
+	(text "pixelY[10..0]" (rect -1390 648 -1331 665)(font "Intel Clear" ))
+	(pt -1496 664)
+	(pt -1312 664)
+	(bus)
+)
+(connector
+	(text "level_sel[2..0]" (rect -1438 696 -1370 713)(font "Intel Clear" ))
+	(pt -1440 712)
+	(pt -1312 712)
+	(bus)
+)
+(connector
+	(pt -1568 728)
+	(pt -1312 728)
+	(bus)
+)
+(connector
+	(pt -1544 624)
+	(pt -1544 696)
+	(bus)
+)
+(connector
+	(pt -1544 696)
+	(pt -1312 696)
+	(bus)
+)
+(connector
+	(text "collision_Bubble_Jellyfish" (rect -1414 664 -1288 681)(font "Intel Clear" ))
+	(pt -1432 680)
+	(pt -1312 680)
+)
+(connector
+	(text "load_game" (rect -1438 744 -1384 761)(font "Intel Clear" ))
+	(pt -1312 760)
+	(pt -1440 760)
+)
+(connector
+	(text "Item3_bought" (rect -1393 728 -1327 745)(font "Intel Clear" ))
+	(pt -1432 744)
+	(pt -1312 744)
+)
+(connector
+	(text "jellyfishDrawingRequest" (rect -926 600 -811 617)(font "Intel Clear" ))
+	(pt -960 616)
+	(pt -832 616)
+)
+(connector
+	(text "jellyfishRGB[7..0]" (rect -934 616 -852 633)(font "Intel Clear" ))
+	(pt -960 632)
+	(pt -840 632)
+	(bus)
+)
+(connector
+	(text "ded_points" (rect -958 632 -907 649)(font "Intel Clear" ))
+	(pt -960 648)
+	(pt -840 648)
+)
+(connector
+	(pt -1616 992)
+	(pt -1576 992)
+	(bus)
+)
+(connector
+	(text "clk" (rect -1424 960 -1410 977)(font "Intel Clear" ))
+	(pt -1336 976)
+	(pt -1528 976)
+)
+(connector
+	(text "resetN" (rect -1422 976 -1392 993)(font "Intel Clear" ))
+	(pt -1336 992)
+	(pt -1528 992)
+)
+(connector
+	(text "pixelX[10..0]" (rect -1422 992 -1363 1009)(font "Intel Clear" ))
+	(pt -1336 1008)
+	(pt -1528 1008)
+	(bus)
+)
+(connector
+	(text "pixelY[10..0]" (rect -1422 1008 -1363 1025)(font "Intel Clear" ))
+	(pt -1336 1024)
+	(pt -1528 1024)
+	(bus)
+)
+(connector
+	(pt -1576 1056)
+	(pt -1336 1056)
+	(bus)
+)
+(connector
+	(pt -1576 992)
+	(pt -1576 1056)
+	(bus)
+)
+(connector
+	(text "level_sel[2..0]" (rect -1454 1088 -1386 1105)(font "Intel Clear" ))
+	(pt -1336 1104)
+	(pt -1456 1104)
+	(bus)
+)
+(connector
+	(pt -1592 1112)
+	(pt -1592 1088)
+	(bus)
+)
+(connector
+	(pt -1600 1112)
+	(pt -1592 1112)
+	(bus)
+)
+(connector
+	(pt -1592 1088)
+	(pt -1336 1088)
+	(bus)
+)
+(connector
+	(text "load_game" (rect -1470 1104 -1416 1121)(font "Intel Clear" ))
+	(pt -1336 1120)
+	(pt -1472 1120)
+)
+(connector
+	(text "bad_patty_explosion_mazeX[10..0]" (rect -1472 1120 -1305 1137)(font "Intel Clear" ))
+	(pt -1336 1136)
+	(pt -1472 1136)
+	(bus)
+)
+(connector
+	(text "bad_patty_explosion_mazeY[10..0]" (rect -1472 1136 -1305 1153)(font "Intel Clear" ))
+	(pt -1336 1152)
+	(pt -1472 1152)
+	(bus)
+)
+(connector
+	(text "hit_bad_patty_stage_2" (rect -1470 1152 -1361 1169)(font "Intel Clear" ))
+	(pt -1336 1168)
+	(pt -1472 1168)
+)
+(connector
+	(text "BurgerDrawingRequest" (rect -926 960 -817 977)(font "Intel Clear" ))
+	(pt -936 976)
+	(pt -832 976)
+)
+(connector
+	(text "burgerRGB[7..0]" (rect -926 976 -851 993)(font "Intel Clear" ))
+	(pt -936 992)
+	(pt -832 992)
+	(bus)
+)
+(connector
+	(text "add_points" (rect -934 992 -883 1009)(font "Intel Clear" ))
+	(pt -936 1008)
+	(pt -832 1008)
+)
+(connector
+	(text "rotten[2..0][7..0]" (rect -934 1008 -859 1025)(font "Intel Clear" ))
+	(pt -936 1024)
+	(pt -832 1024)
+	(bus)
+)
+(connector
+	(text "startOfFrame" (rect -1550 1168 -1487 1185)(font "Intel Clear" ))
+	(pt -1560 1184)
+	(pt -1336 1184)
+)
+(connector
+	(text "collision_Bubble_Burger" (rect -1438 1056 -1322 1073)(font "Intel Clear" ))
+	(pt -1456 1072)
+	(pt -1336 1072)
+)
+(connector
+	(text "clk" (rect -408 352 -394 369)(font "Intel Clear" ))
+	(pt -416 368)
+	(pt -312 368)
+)
+(connector
+	(text "resetN" (rect -408 368 -378 385)(font "Intel Clear" ))
+	(pt -416 384)
+	(pt -312 384)
+)
+(connector
+	(text "pixelX[10..0]" (rect -408 384 -349 401)(font "Intel Clear" ))
+	(pt -416 400)
+	(pt -304 400)
+	(bus)
+)
+(connector
+	(text "pixelY[10..0]" (rect -408 400 -349 417)(font "Intel Clear" ))
+	(pt -416 416)
+	(pt -296 416)
+	(bus)
+)
+(connector
+	(text "collision_Bubble_BadPatty" (rect -408 416 -279 433)(font "Intel Clear" ))
+	(pt -416 432)
+	(pt -296 432)
+)
+(connector
+	(text "level_sel[2..0]" (rect -414 432 -346 449)(font "Intel Clear" ))
+	(pt -280 448)
+	(pt -416 448)
+	(bus)
+)
+(connector
+	(text "load_game" (rect -393 448 -339 465)(font "Intel Clear" ))
+	(pt -416 464)
+	(pt -280 464)
+)
+(connector
+	(text "is_exploding" (rect -414 464 -355 481)(font "Intel Clear" ))
+	(pt -256 480)
+	(pt -416 480)
+)
+(connector
+	(text "startOfFrame" (rect -390 480 -327 497)(font "Intel Clear" ))
+	(pt -416 496)
+	(pt -296 496)
+)
+(connector
+	(text "collision_Bubble_Jellyfish" (rect -398 496 -272 513)(font "Intel Clear" ))
+	(pt -416 512)
+	(pt -296 512)
+)
+(connector
+	(text "Item3_bought" (rect -377 512 -311 529)(font "Intel Clear" ))
+	(pt -416 528)
+	(pt -296 528)
+)
+(connector
+	(text "collision_Bubble_Burger" (rect -398 528 -282 545)(font "Intel Clear" ))
+	(pt -416 544)
+	(pt -296 544)
+)
+(connector
+	(text "BadPattyDR" (rect 32 352 91 369)(font "Intel Clear" ))
+	(pt 8 368)
+	(pt 80 368)
+)
+(connector
+	(text "BadPattyRGB[7..0]" (rect -8 368 81 385)(font "Intel Clear" ))
+	(pt -16 384)
+	(pt 80 384)
+	(bus)
+)
+(connector
+	(text "ded_points_rotten" (rect 2 384 88 401)(font "Intel Clear" ))
+	(pt -48 400)
+	(pt 80 400)
+)
+(connector
+	(text "jellyfishDrawingRequest" (rect -22 416 93 433)(font "Intel Clear" ))
+	(pt -56 432)
+	(pt 80 432)
+)
+(connector
+	(text "jellyfishRGB[7..0]" (rect -22 432 60 449)(font "Intel Clear" ))
+	(pt -48 448)
+	(pt 80 448)
+	(bus)
+)
+(connector
+	(text "ded_points" (rect 10 448 61 465)(font "Intel Clear" ))
+	(pt 0 464)
+	(pt 80 464)
+)
+(connector
+	(text "BurgerDrawingRequest" (rect -14 480 95 497)(font "Intel Clear" ))
+	(pt -24 496)
+	(pt 80 496)
+)
+(connector
+	(text "burgerRGB[7..0]" (rect -14 496 61 513)(font "Intel Clear" ))
+	(pt -24 512)
+	(pt 80 512)
+	(bus)
+)
+(connector
+	(text "add_points" (rect -22 512 29 529)(font "Intel Clear" ))
+	(pt -24 528)
+	(pt 80 528)
+)
+(text "Rotten Burgers Display" (rect -1104 176 -899 199)(font "Intel Clear" (font_size 12)(bold)))

@@ -1,0 +1,51 @@
+// (c) Technion IIT, Department of Electrical Engineering 2025 
+module random_bubble 	
+ ( 
+	input	logic  clk,
+	input	logic  resetN, 
+	input	logic	 rise,
+	output logic dout	
+  ) ;
+
+// Generating a random number by latching a fast counter with the rising edge of an input ( e.g. key pressed )
+  
+parameter SIZE_BITS = 8;
+parameter unsigned MIN_VAL = 0;  //set the min and max values 
+parameter unsigned MAX_VAL = 255;
+
+	logic unsigned  [SIZE_BITS-1:0] counter/* synthesis keep = 1 */;
+	logic rise_d /* synthesis keep = 1 */;
+	
+	
+always_ff @(posedge clk or negedge resetN) begin
+		if (!resetN) begin
+			dout <= 0;
+			counter <= MIN_VAL;
+			rise_d <= 1'b0;
+		end
+		
+		else begin
+		if (rise && rise_d) begin
+			dout <= dout;
+		end
+		else begin
+			dout <= 0;
+			counter <= counter+1;
+			if ( counter >= MAX_VAL ) begin // the +1 is done on the next clock 
+				counter <=  MIN_VAL ; // set min and max mvalues 
+			end
+			rise_d <= rise;
+			if (rise && !rise_d) begin // rising edge
+				if(counter >= (MAX_VAL>>1)) begin
+					dout <= 1;
+					
+				end else 
+					dout <= 0;
+				end
+		end
+	end
+	end
+
+ 
+endmodule
+
